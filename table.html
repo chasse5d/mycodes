@@ -1,100 +1,110 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <title>
         Лабораторная работа №4
     </title>
     <link rel="stylesheet" href="table.css">
-    <link rel="stylesheet" href="style.css"
-</head>
+    <link rel="stylesheet" href="style.css" </head>
+
 <body>
     <div class="header">
-        <a
-            href="lab2.html"> Основная страница
+        <a href="lab2.html"> Основная страница
         </a>
-        <a
-            href="page2.html"> Позиционирование элементов
+        <a href="page2.html"> Позиционирование элементов
         </a>
-        <a
-            href="table.html"> Таблица
+        <a href="table.html"> Таблица
         </a>
     </div>
-    <table>
-        <caption>
-            Список тех самых студентов
-        </caption>
-        <tr>
-            <th>№</th>
-            <th>Фамилия</th>
-            <th>Имя</th>
-            <th>Возраст</th>
-            <th>Номер группы</th>
-            <th>Название направления</th>
-            <th>Форма поступления</th>
-        </tr>
-        <tr>
-            <td>1</td>
-            <td>Гриффин</td>
-            <td>Питер</td>
-            <td>20</td>
-            <td>4302</td>
-            <td>Физика</td>
-            <td>Очная</td>
-        </tr>
-        <tr>
-            <td>2</td>
-            <td>Дёрден</td>
-            <td>Тайлер</td>
-            <td>22</td>
-            <td>4405</td>
-            <td>Химия</td>
-            <td>Очная</td>
-        </tr>
-        <tr>
-            <td>3</td>
-            <td>Орлов</td>
-            <td>Глеб</td>
-            <td>25</td>
-            <td>6502</td>
-            <td>ИВТ</td>
-            <td>Очная</td>
-        </tr>
-        <tr>
-            <td>4</td>
-            <td>Лобанов</td>
-            <td>Семен</td>
-            <td>21</td>
-            <td>8512</td>
-            <td>Химия</td>
-            <td>Очная</td>
-        </tr>
-        <tr>
-            <td>5</td>
-            <td>Костылев</td>
-            <td>Александр</td>
-            <td>22</td>
-            <td>5202</td>
-            <td>Юриспруденция</td>
-            <td>Заочная</td>
-        </tr>
-        <tr>
-            <td>6</td>
-            <td>Колбасенко</td>
-            <td>Данил</td>
-            <td>12</td>
-            <td>-</td>
-            <td>Ещё думает</td>
-            <td>Не поступил</td>
-        </tr>
-        <tr>
-            <td>7</td>
-            <td>Татыржа</td>
-            <td>Антон</td>
-            <td>28</td>
-            <td>7405</td>
-            <td>Биология</td>
-            <td>Заочная</td>
-        </tr>
-    </table>
+    <form>
+        <table>
+            <caption>
+                Список тех самых студентов
+            </caption>
+            <tr>
+                <th>№</th>
+                <th>Фамилия</th>
+                <th>Имя</th>
+                <th>Возраст</th>
+                <th>Номер группы</th>
+                <th>Название направления</th>
+                <th>Форма поступления</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Гриффин</td>
+                <td>Питер</td>
+                <td>20</td>
+                <td>4302</td>
+                <td>Физика</td>
+                <td>Очная</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Дёрден</td>
+                <td>Тайлер</td>
+                <td>22</td>
+                <td>4405</td>
+                <td>Химия</td>
+                <td>Очная</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Орлов</td>
+                <td>Глеб</td>
+                <td>25</td>
+                <td>6502</td>
+                <td>ИВТ</td>
+                <td>Очная</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Лобанов</td>
+                <td>Семен</td>
+                <td>21</td>
+                <td>8512</td>
+                <td>Химия</td>
+                <td>Очная</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Костылев</td>
+                <td>Александр</td>
+                <td>22</td>
+                <td>5202</td>
+                <td>Юриспруденция</td>
+                <td>Заочная</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>Колбасенко</td>
+                <td>Данил</td>
+                <td>12</td>
+                <td>-</td>
+                <td>Ещё думает</td>
+                <td>Не поступил</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>Татыржа</td>
+                <td>Антон</td>
+                <td>28</td>
+                <td>7405</td>
+                <td>Биология</td>
+                <td>Заочная</td>
+            </tr>
+            <tr>
+                <td><label for="nom">№</label><input type="text" id="nom"></td>
+                <td><label for="fam">Фамилия</label><input type="text" id="№"></td>
+                <td><label for="name">Имя</label><input type="text" id="name"></td>
+                <td><label for="age">Возраст</label><input type="text" id="age"></td>
+                <td><label for="gorup">Номер группы</label><input type="text" id="group"></td>
+                <td><label for="napr">Название направления</label><input type="text" id="napr"></td>
+                <td><label for="forma">Форма поступления</label><input type="text" id="forma"></td>
+            </tr>
+        </table>
+    </form>
 </body>
+
 </html>
